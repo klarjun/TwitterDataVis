@@ -1,0 +1,48 @@
+path.link {
+    fill: none;
+    stroke: #666;
+    stroke-width: 1.5px;
+}
+
+path.link.twofive {
+    opacity: 0.25;
+}
+
+path.link.fivezero {
+    opacity: 0.50;
+}
+
+path.link.sevenfive {
+    opacity: 0.75;
+}
+
+path.link.onezerozero {
+    opacity: 1.0;
+}
+
+circle {
+    fill: #ccc;
+    stroke: #fff;
+    stroke-width: 1.5px;
+}
+
+text {
+    fill: #000;
+    pointer-events: none;
+}
+#content {
+    padding: 7px;
+}
+
+#info{
+    width: 1000x;
+    height: 400px;
+    border: 1px solid #c3c3c3;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    align-content: center;
+    padding-top: 0%;
+}

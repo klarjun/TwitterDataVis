@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Social Network Graph</title>
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <div id="info">
+        <h1>Social Network graph</h1>
+        <h5>
+            <ul>
+                <li>
+                    Shows how and where tweets are retweeted among different users in a directional graph.
+                </li>
+                <li>
+                    Each node represent a user id, and directed edges (arrowed links) from
+                    connected the <mark><em>retweet_from</em></mark> to <mark><em>user_id</em> </mark>.
+                </li>
+                <li>
+                    <em style="color: blue;">Blue nodes</em> represents those users who believed tweet was legit.
+                </li>
+                <li>
+                    <em style="color: red;">Red nodes</em> represents those users who believed tweet was <i>not</i> legit.
+                </li>
+                <li>
+                    <em style="color: black;">Black nodes</em> represents the retweet_from information.
+                </li>
+                <li>
+                    The mouse cursor hover over each node (i.e., the user), shows corresponding <mark><em>user_name</em></mark> to the <mark><em>user id</em></mark>.
+                </li>
+                <li>
+                    The single mouse click on each node enlarges them to better enhance the focus and view-ability of nodes 
+                </li>
+                <li>
+                    Double click bounces them back default size.
+                </li>
+                <li>
+                    <b><i style="color: green;">To find different or better orientation of nodes, keep refreshing the page untill you find a proper ditribution.</i></b>
+                </li>
+
+            </ul>
+            
+        </h5>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
